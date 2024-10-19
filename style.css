@@ -1,0 +1,72 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* light gray background */
+    position: relative;
+    padding-bottom: 100px;
+    min-height: 100vh;
+}
+
+
+/* Header styles */
+header {
+    background-color: #333;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* subtle shadow */
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav table tr td a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #555;
+}
+
+nav table tr td a:hover {
+    background-color: #777;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+main h2,
+main p {
+    margin-bottom: 20px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    position: relative; /* anna thi overlap band thay gayu ane scroll downwards chalu thay gayu */
+    bottom: 0;
+    width: 100%;
+
+}
+
+footer table {
+    width: 30%;
+    margin: 0 10px; /* Add margin between tables */
+}

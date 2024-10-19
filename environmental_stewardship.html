@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Images with Text</title>
+<style>
+    body {
+        font-family: Arial, sans-serif, 'Segoe UI', Helvetica;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 0 20px;
+    }
+    .row {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end; /* Align items at the bottom of the flex container */
+        margin-bottom: 20px;
+    }
+    .column {
+        flex: 50%;
+        padding: 0 10px;
+        position: relative; /* Relative positioning for the container */
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+    .text {
+        position: absolute; /* Absolute positioning for the text */
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+        color: white;
+        padding: 5px;
+        text-align: center;
+    }
+    h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+</style>
+</head>
+<body>
+    <h1 style="width: 40vw;">Environmental Stewardship</h1><br><br>
+    <P><h2>We share our customers' commitment to the environment</h2>
+        And we believe in the importance of caring for our planet and working with and encouraging others to do the same. As a company that relies on an agricultural product, it makes good business sense. And as people living in the world, it is simply the right thing to do.</P>
+    <div class="container">
+        <div class="row">
+            <div class="column">
+                <div class="image-container">
+                    <img src="coffee shop 1.jpeg" alt="green coffeeshop">
+                    <div class="text">Green Building</div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="image-container">
+                    <img src="climate control.jpeg" alt="Climate Control">
+                    <div class="text">Climate Control</div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <div class="image-container">
+                    <img src="recycling.jpeg" alt="Waste Management">
+                    <div class="text">Recycling and Waste Management</div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="image-container">
+                    <img src="water conservation.jpeg" alt="Water Conservation">
+                    <div class="text">Water Conservation</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
